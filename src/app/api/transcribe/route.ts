@@ -159,3 +159,5 @@ export async function POST(request: NextRequest) {
     await unlink(tmpAudioPath).catch(() => {});
   }
 }
+
+export const maxDuration = 300;

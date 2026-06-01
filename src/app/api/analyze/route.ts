@@ -212,3 +212,5 @@ ${episode.transcript_timestamped || episode.transcript}
     return NextResponse.json({ error: "Internal server error during analysis" }, { status: 500 });
   }
 }
+
+export const maxDuration = 300;
